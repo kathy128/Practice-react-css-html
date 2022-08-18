@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Nunito:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+
+.main{
+    background-color: rgb(255, 68, 31);
+    width: auto;
+    height: 398px;
+    padding-top: 60px;
+    text-decoration: none;
+    display: flexbox;
+    position: relative;
+    
+}
+.p{
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: lighter;
+    font-size: 48px;
+    
+}
+.b{
+    font-family: 'Days One', sans-serif;
+    font-weight: bold;
+    
+}
+.input{
+    border-radius: 3px;
+    width: 680px;
+    height: 73px;
+    margin-top: 32px;
+    padding-left: 20px;
+    border: none;
+    box-shadow: 2px 15px 28px 1px rgba(39, 39, 39, 0.171);
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 400;
+    font: var(--fa-font-solid);
+    font-size: 20px;
+    &:focus{
+        outline:none;
+ }
+
+}
+.btnUsaU{
+    background-color:  rgb(255, 68, 31);
+    border: none;
+    color: white;
+    margin-top: 36px;
+    margin-right: 100px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.iniciar{
+  background-color:  rgb(255, 68, 31);
+  border: none;
+  color: white;
+  margin-top: 40px;
+}

@@ -1,0 +1,11 @@
+Button {
+  background: transparent;
+  border-right: 1px solid #e6ebf1;
+  border-left: 1px solid #e6ebf1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid rgba(0, 0, 0, 0);
+  color: #ff4428;
+  margin: 160px;
+  padding: 0.25em 1em;
+}
+/*# sourceMappingURL=navbar.css.map */

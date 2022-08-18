@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
+.Nav {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    z-index: 999;
+    box-shadow: rgb(230 235 241) 0px 2px 0px 0px;
+    height: 63px;
+    align-items: center;
+}
+.navbar{
+    z-index: 10;
+    justify-content: space-between;
+    padding: 0.5rem calc((100vw - 1000px)/2);
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.menu-bars{
+    font-size: 2rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+ }
+ .nav-menu{
+     background-color: #ffffff;
+     width: 200px;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     position: fixed;
+     top: 0;
+     left: -100%;
+     transition: 850ms;
+ }
+ .nav-menu.active{
+     left: 0;
+     transition: 850ms;
+ }
+ .nav-text{
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     padding: 8px 0px 8px 16px;
+     list-style: none;
+     height: 60px;
+      a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        width: 95%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        border-radius:4px;
+        &:hover{
+            background-color: rgb(233, 233, 233);
+            color:rgb(0, 0, 0)
+           }
+    }
+    
+ }
+ .nav-menu-items{
+     width: 100%;
+
+ }
+ .navbar-toggle{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 63px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+ }
+ .span{
+     margin-left: 5px;
+    
+ }
+.logo{
+    margin: 10px 10px 10px 20px;
+}
+.d-flex{
+    background-color: rgb(247, 247, 247);
+    border-radius: 4px;
+    width: 327px;
+    height: 50px;
+    margin-left: 71px;
+
+    
+}
+.me-2{
+    background-color: rgba(238, 238, 238, 0);
+    color: rgb(238, 238, 238);
+    border: none;
+    margin-left: 10px;
+    padding-left: 10px;
+    caret-color: rgb(41, 216, 132);
+     &:focus{
+            outline:none;
+     }
+     ::-moz-placeholder{
+        font-size: 1.5em;
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+}
+.buscar{
+    background-color: rgb(255, 68, 31);
+    width: 40px;
+    height: 39px;
+    border: none;
+    border-radius: 20%;
+    position:relative;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: 5px;
+    
+}
+.buscarLogo{
+    margin-top: 1px;
+    margin-bottom : 1px;
+    width: 5px;
+    height: 5px;
+}
+ 
+.locImg{
+    padding-right: 4px;
+    width: 20px;
+    height: 18px;
+}
+.ingresar{
+    background-color: #ffffff;
+    text-decoration: solid;
+    color: rgb(41, 216, 132);
+    border: none;
+    margin-right: 10px;
+    margin-top: 4px;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    float: left;
+    
+}
+.btncarrito{
+    float: left;
+    background-color: rgb(41, 216, 132);
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: none;
+    width: 70px;
+    height: 36px;
+    border-radius: 11%;
+    text-decoration: solid;
+    padding-right: 15px;
+    
+}
+.imgCarrito{
+    padding-right: 15px;
+
+}
+.right{
+    border-left: 1px solid rgb(230, 235, 241);
+    background: transparent;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    padding-top: 3px;
+    margin-left: 180px;
+
+
+    
+}
+.location {
+  background: transparent;
+  border-right: 1px solid rgb(230, 235, 241);
+  border-left: 1px solid rgb(230, 235, 241);
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  border-top: 1px solid rgba(0, 0, 0, 0);
+  color: rgb(255, 68, 40);
+  margin: 100px;
+  padding-left: 3px;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  width: 230px;
+  height: 34px;
+}
